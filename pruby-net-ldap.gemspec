@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{pruby-net-ldap}
-  s.version = "0.2.1"
+  s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Siva Kilaru"]
@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "lib/ldap.rb",
     "lib/net/ber.rb",
     "lib/net/ldap.rb",
     "lib/net/ldap/dataset.rb",
@@ -38,7 +39,6 @@ Gem::Specification.new do |s|
     "lib/net/ldap/pdu.rb",
     "lib/net/ldap/psw.rb",
     "lib/net/ldif.rb",
-    "lib/pruby-net-ldap.rb",
     "pre-setup.rb",
     "pruby-net-ldap.gemspec",
     "setup.rb",
