@@ -25,12 +25,12 @@ begin
 rescue LoadError
 end
 
-require 'ber'
-require 'ldap/pdu'
-require 'ldap/filter'
-require 'ldap/dataset'
-require 'ldap/psw'
-require 'ldap/entry'
+require './ber'
+require './ldap/pdu'
+require './ldap/filter'
+require './ldap/dataset'
+require './ldap/psw'
+require './ldap/entry'
 
 
 module Net
