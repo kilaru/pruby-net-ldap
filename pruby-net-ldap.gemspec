@@ -40,6 +40,7 @@ Gem::Specification.new do |s|
     "lib/net/ldif.rb",
     "lib/pruby-net-ldap.rb",
     "pre-setup.rb",
+    "pruby-net-ldap.gemspec",
     "setup.rb",
     "tests/testber.rb",
     "tests/testdata.ldif",
